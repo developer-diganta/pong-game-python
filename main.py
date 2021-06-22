@@ -52,10 +52,10 @@ while game_is_on:
     if ball.xcor()<-380:
         ball.reset()
         scoreboard.update_r_score()
-    if(scoreboard.l_score==4):
+    if(scoreboard.l_score==11):
         winner_print(player_1)
         game_is_on=False
-    if(scoreboard.r_score==4):
+    if(scoreboard.r_score==11):
         winner_print(player_2)
         game_is_on=False
 screen.exitonclick()
